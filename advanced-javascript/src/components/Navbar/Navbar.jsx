@@ -32,7 +32,7 @@ const Navbar = () => {
 
     // destruct method
     const [ Barat, Tengah, Timur ] = kota;
-    
+
 
     return (
         <div>

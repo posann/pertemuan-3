@@ -59,4 +59,21 @@ const Footer = () => {
     );
 }
 
+const Foo = () => {
+    return(
+        <>
+
+        </>
+    )
+}
+
+const Foo2 = () => {
+    return(
+        <>
+
+        </>
+    )
+}
+
 export default Footer;
+export { Foo, Foo2 };
