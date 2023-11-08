@@ -17,6 +17,23 @@ const Footer = () => {
         }
     )
 
+
+    // array objek mhs
+    const mhs = [
+        {
+            nama: "Arya",
+            umur: 14
+        },
+        {
+            nama: "Mahmud",
+            umur: 15
+        },
+        {
+            nama: "Abil",
+            umur: 11
+        }
+    ]
+
     return (
         <div>
             
