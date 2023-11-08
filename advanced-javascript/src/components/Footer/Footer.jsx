@@ -34,13 +34,23 @@ const Footer = () => {
         }
     ];
 
-    const value = mhs.find(
-        function(nama){
-            return nama == "M"
+    // find = mengembalikan true/false
+    const findMhs = mhs.find(
+        function(mhs){
+            return mhs.umur > 13
         }
     )
 
-    console.log(value);
+    // filter = mengembalikan data
+    const filterMhs = mhs.filter(
+        function(mhs){
+            return mhs.umur > 12
+        }
+    )
+
+    console.log(findMhs);
+    console.log(filterMhs);
+
 
     return (
         <div>
