@@ -32,7 +32,15 @@ const Footer = () => {
             nama: "Abil",
             umur: 11
         }
-    ]
+    ];
+
+    const value = mhs.find(
+        function(nama){
+            return nama == "M"
+        }
+    )
+
+    console.log(value);
 
     return (
         <div>
